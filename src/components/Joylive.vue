@@ -25,7 +25,7 @@
             var userName=$('.userName').val();
             var password=$('.password').val();
             var params = new URLSearchParams();
-            // params.append('openId',this.openId);
+            params.append('openId',this.openId);
             params.append('userName',userName);
             params.append('password',password);
             axios.post('http://wx.baronli.com/api/user/openIdAndUser/'+this.openId+'/'+userName+'/'+password,params).then(function(res){
