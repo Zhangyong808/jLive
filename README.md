@@ -1,6 +1,6 @@
-# jlvue
+# jlive
 
-> A Vue.js project
+> a program for background management
 
 ## Build Setup
 
